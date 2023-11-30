@@ -6,7 +6,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
 
-    res.send('TEST APPLICATION BLUE GREEN DEPLOYMENT [V-2.1 Dated 01/12/2023]');
+    res.send('TEST APPLICATION BLUE GREEN DEPLOYMENT [V-2.1]');
 });
 
 app.listen(port, () => {
